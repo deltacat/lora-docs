@@ -1,0 +1,74 @@
+{
+    "title": "LoRaWan Specification V1.1 中文版",
+    "description": "",  
+    "author": "catking",
+    "language": "zh-hans",
+    "links": {
+        "sidebar": {
+        }
+    },
+    "pdf": {
+        "toc": true,
+        "pageNumbers": true,
+        "fontSize": 14,
+        "paperSize": "a4",
+        "margin": {
+            "right": 62,
+            "left": 62,
+            "top": 36,
+            "bottom": 36
+        }
+    },
+    "plugins": [
+        "theme-comscore",
+        "expandable-chapters-small",
+        "todo",
+        "mathjax",
+        "-sharing",
+        "-lunr",
+        "-search",
+        "search-plus",
+        "sharing-plus",
+        "simple-page-toc",
+        "tbfed-pagefooter"
+    ],
+    "pluginsConfig": {
+        "expandable-chapters-small": {},
+        "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        },
+        "tbfed-pagefooter": {
+          "copyright":"Copyright &copy <a href=http://www.catxn.net>猫老师</a> 2019",
+          "modify_label": "本课修订时间：",
+          "modify_format": "YYYY-MM-DD"
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": true,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": true,
+            "messenger": false,
+            "pocket": true,
+            "qq": false,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": true,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": false,
+            "all": [
+                "facebook",
+                "twitter",
+                "weibo",
+                "qq",
+                "douban",
+                "line"
+            ]
+        }
+    }
+}
