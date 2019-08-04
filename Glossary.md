@@ -1,0 +1,126 @@
+# 词汇表
+
+## ADR
+
+Adaptive Data Rate
+
+## AES
+
+Advanced Encryption Standard
+
+## AFA
+
+Adaptive Frequency Agility
+
+## AR
+
+Acknowledgement Request
+
+## CBC
+
+Cipher Block Chaining
+
+## CMAC
+
+Cipher-based Message Authentication
+
+## CR
+
+Code Coding Rate
+
+## CRC
+
+Cyclic Redundancy Check
+
+## DR
+
+Data Rate
+
+## ECB
+
+Electronic Code Book
+
+## ETSI
+
+European Telecommunications Standards Institute 
+
+## EIRP
+
+Equivalent Isotropically Radiated Power 
+
+## FSK
+
+Frequency Shift Keying modulation technique 
+
+## GPRS
+
+General Packet Radio Service
+
+## HAL
+
+Hardware Abstraction Layer
+
+## IP
+
+Internet Protocol
+
+## LBT
+
+Listen Before Talk
+
+## LoRaTM
+
+Long Range modulation technique
+
+## LoRaW ANTM
+
+Long Range Network protocol
+
+## MAC
+
+Medium Access Control
+
+## MIC
+
+Message Integrity Code
+
+## RF
+
+Radio Frequency
+
+## RFU
+
+Reserved for Future Usage
+
+## Rx
+
+Receiver
+
+## RSSI
+
+Received Signal Strength Indicator
+
+## SF
+
+Spreading Factor
+
+## SNR
+
+Signal Noise Ratio
+
+## SPI
+
+Serial Peripheral Interface
+
+## SSL
+
+Secure Socket Layer
+
+## Tx
+
+Transmitter
+
+## USB
+
+Universal Serial Bus
+
