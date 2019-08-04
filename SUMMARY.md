@@ -7,6 +7,8 @@
 ----
 
 * [1 介绍](contents/ch01/README.md)
+    * [1.1 LoRaWAN Classes](contents/ch01/1.1.md)
+    * [1.2 文档约定](contents/ch01/1.2.md)
 * [2 LoRaWAN Classes 类型介绍](contents/ch02/README.md)
 
 ----
