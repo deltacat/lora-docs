@@ -40,7 +40,7 @@
         },
         "tbfed-pagefooter": {
           "copyright":"Copyright &copy <a href=http://www.catxn.net>猫老师</a> 2019",
-          "modify_label": "本课修订时间：",
+          "modify_label": "本节修订于 ",
           "modify_format": "YYYY-MM-DD"
         },
         "sharing": {

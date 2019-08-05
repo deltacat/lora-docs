@@ -2,7 +2,7 @@
 
 * [翻译说明](README.md)
 * [原版权信息](Copyright.md)
-* [目录](Summary-Detail.md)
+<!-- * [目录](Summary-Detail.md) -->
 
 ----
 
@@ -15,8 +15,10 @@
 ----
 
 * [CLASS A - 所有终端](contents/CLASS-A.md)
-
 * [3 PHY 帧格式](contents/ch03/README.md)
+    * [3.1 上行消息](contents/ch03/3.1.md)
+    * [3.2 下行消息](contents/ch03/3.2.md)
+    * [3.3 接收窗口](contents/ch03/3.3.md)
 * [4 MAC帧格式](contents/ch04/README.md)
 * [5 MAC命令](contents/ch05/README.md)
 * [6 终端激活](contents/ch06/README.md)
