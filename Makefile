@@ -1,14 +1,26 @@
 workBranch := $(shell git symbolic-ref --short -q HEAD)
 
-main:
-	@echo "Usage: make"
-	@echo ""
-	@echo "    build    ......  build the book. Must build before publish"
-	@echo "    publish  ......  publish built out book to gh-pages"
 
+.PHONY: help
+all: help
+help: Makefile
+	@echo
+	@echo " Choose a command:"
+	@echo
+	@sed -n 's/^##//p' $< | column -t -s ':' |  sed -e 's/^//'
+	@echo
+
+## serve: start a static server locally
+.PHONY: serve
+serve:
+	gitbook serve --port 3502
+
+## build: build the book to static 
+.PHONY: build
 build:
 	gitbook build
 
+## publish: commit and publish to gh-pages
 publish:
 	@echo "[1] >>> Commit Current branch : $(workBranch)"
 	@git add .
