@@ -20,6 +20,10 @@
     * [3.2 下行消息](contents/ch03/3.2.md)
     * [3.3 接收窗口](contents/ch03/3.3.md)
 * [4 MAC帧格式](contents/ch04/README.md)
+    * [4.1 MAC层（PHYPayload）](contents/ch04/4.1.md)
+    * [4.2 MAC头（MHDR字段）](contents/ch04/4.2.md)
+    * [4.3 MAC载荷（MACPayload）](contents/ch04/4.3.md)
+    * [4.4 消息校验码](contents/ch04/4.4.md) 
 * [5 MAC命令](contents/ch05/README.md)
 * [6 终端激活](contents/ch06/README.md)
 * [7 重传退避](contents/ch07/README.md)
@@ -44,6 +48,6 @@
 
 ---
 
-
+* [22 Revisions](contents/ch22/README.md)
 * [23 词汇表](Glossary.md)
 
