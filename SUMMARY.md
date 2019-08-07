@@ -25,6 +25,20 @@
     * [4.3 MAC载荷（MACPayload）](contents/ch04/4.3.md)
     * [4.4 消息校验码](contents/ch04/4.4.md) 
 * [5 MAC命令](contents/ch05/README.md)
+    * [5.1](contents/ch05/5.1.md) 
+    * [5.2](contents/ch05/5.2.md)
+    * [5.3](contents/ch05/5.3.md)
+    * [5.4](contents/ch05/5.4.md)
+    * [5.5](contents/ch05/5.5.md)
+    * [5.6](contents/ch05/5.6.md)
+    * [5.7](contents/ch05/5.7.md)
+    * [5.8](contents/ch05/5.8.md)
+    * [5.9](contents/ch05/5.9.md)
+    * [5.10](contents/ch05/5.10.md)
+    * [5.11](contents/ch05/5.11.md)
+    * [5.12](contents/ch05/5.12.md)
+    * [5.13](contents/ch05/5.13.md)
+    * [5.14](contents/ch05/5.14.md) 
 * [6 终端激活](contents/ch06/README.md)
 * [7 重传退避](contents/ch07/README.md)
 
@@ -49,5 +63,9 @@
 ---
 
 * [22 Revisions](contents/ch22/README.md)
+    * [22.1 Revision 1.0](contents/ch22/22.1.md)
+    * [22.2 Revision 1.0.1](contents/ch22/22.2.md)
+    * [22.3 Revision 1.0.2](contents/ch22/22.3.md)
+    * [22.4 Revision 1.1](contents/ch22/22.4.md)
 * [23 词汇表](Glossary.md)
 
