@@ -64,12 +64,12 @@
 -->
 ---
 
-* [22 Revisions](contents/ch22/README.md)
+* [22 修订历史](contents/ch22/README.md)
     * [22.1 Revision 1.0](contents/ch22/22.1.md)
     * [22.2 Revision 1.0.1](contents/ch22/22.2.md)
     * [22.3 Revision 1.0.2](contents/ch22/22.3.md)
     * [22.4 Revision 1.1](contents/ch22/22.4.md)
 * [23 词汇表](Glossary.md)
-* [24 Bibliography](contents/ch24/README.md)
-* [25 NOTICE OF USE AND DISCLOSUE](contents/ch25/README.md)
+* [24 参考文献](contents/ch24/README.md)
+* [25 使用和披露](Copyright.md)
 
