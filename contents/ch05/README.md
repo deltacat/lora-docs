@@ -38,14 +38,14 @@ MAC 指令由接收端按与传输命令相同的顺序应答或确认。每个 
       <td>ResetInd</td>
       <td>x</td>
       <td></td>
-      <td>Used by an ABP device to indicate a reset to the network and negotiate protocol version</td>
+      <td>ABP设备用于指示对网络的重置并协商协议版本</td>
    </tr>
    <tr>
       <td>0x01</td>
       <td>ResetConf</td>
       <td></td>
       <td>x</td>
-      <td>Acknowledges ResetInd command</td>
+      <td>确认 ResetInd 指令</td>
    </tr>
    <tr>
       <td>0x02</td>
@@ -59,7 +59,7 @@ MAC 指令由接收端按与传输命令相同的顺序应答或确认。每个 
       <td>LinkCheckAns</td>
       <td></td>
       <td>x</td>
-      <td>LinkCheckReq的回复。包含接收信号强度，告知终端接收质量</td>
+      <td>LinkCheckReq 的回应。包含向终端设备指示接收质量(链路裕度)的接收信号功率估计</td>
    </tr>
    <tr>
       <td>0x03</td>
@@ -73,77 +73,77 @@ MAC 指令由接收端按与传输命令相同的顺序应答或确认。每个 
       <td>LinkADRAns</td>
       <td>x</td>
       <td></td>
-      <td>LinkADRReq的回复。</td>
+      <td>LinkADRReq 的回应</td>
    </tr>
    <tr>
       <td>0x04</td>
       <td>DutyCycleReq</td>
       <td></td>
       <td>x</td>
-      <td>向终端设置发送的最大占空比。</td>
+      <td>向终端设置发送的最大占空比</td>
    </tr>
    <tr>
       <td>0x04</td>
       <td>DutyCycleAns</td>
       <td>x</td>
       <td></td>
-      <td>DutyCycleReq的回复。</td>
+      <td>DutyCycleReq 的回应</td>
    </tr>
    <tr>
       <td>0x05</td>
       <td>RXParamSetupReq</td>
       <td></td>
       <td>x</td>
-      <td>向终端设置接收时隙参数。</td>
+      <td>向终端设置接收时隙参数</td>
    </tr>
    <tr>
       <td>0x05</td>
       <td>RXParamSetupAns</td>
       <td>x</td>
       <td></td>
-      <td>RXParamSetupReq的回复。</td>
+      <td>RXParamSetupReq的回复</td>
    </tr>
    <tr>
       <td>0x06</td>
       <td>DevStatusReq</td>
       <td></td>
       <td>x</td>
-      <td>向终端查询其状态。</td>
+      <td>向终端查询其状态</td>
    </tr>
    <tr>
       <td>0x06</td>
       <td>DevStatusAns</td>
       <td>x</td>
       <td></td>
-      <td>返回终端设备的状态，即电池余量和链路解调预算。</td>
+      <td>返回终端设备的状态，即电池余量和链路解调裕度。</td>
    </tr>
    <tr>
       <td>0x07</td>
       <td>NewChannelReq</td>
       <td></td>
       <td>x</td>
-      <td>创建或修改 1个射频信道 定义。</td>
+      <td>创建或修改 1个射频信道定义</td>
    </tr>
    <tr>
       <td>0x07</td>
       <td>NewChannelAns</td>
       <td>x</td>
       <td></td>
-      <td>NewChannelReq的回复。</td>
+      <td>NewChannelReq 的回复</td>
    </tr>
    <tr>
       <td>0x08</td>
       <td>RXTimingSetupReq</td>
       <td></td>
       <td>x</td>
-      <td>设置接收时隙的时间。</td>
+      <td>设置接收时隙的时间</td>
    </tr>
    <tr>
       <td>0x08</td>
       <td>RXTimingSetupAns</td>
       <td>x</td>
       <td></td>
-      <td>RXTimingSetupReq的回复。</td>
+      <td>RXTimingSetupReq 的回复</td>
    </tr>
    <tr>
       <td>0x09</td>
@@ -164,96 +164,94 @@ MAC 指令由接收端按与传输命令相同的顺序应答或确认。每个 
       <td>DlChannelReq</td>
       <td></td>
       <td>x</td>
-      <td>通过从上行链路频率移位下行链路频率（即创建非对称信道）来修改下行链路RX1无线电信道的定义</td>
+      <td>通过从上行链路频率移位下行链路频率（如创建非对称信道）来修改下行链路RX1无线电信道的定义</td>
    </tr>
    <tr>
       <td>0x0A</td>
       <td>DlChannelAns</td>
       <td>x</td>
       <td></td>
-      <td>DlChannelReq的回复。</td>
+      <td>DlChannelReq 的回复</td>
    </tr>
     <tr>
       <td>0x0B</td>
       <td>RekeyInd</td>
       <td>x</td>
       <td></td>
-      <td></td>
+      <td>OTA 设备用于发出安全上下文更新信号(rekeying)</td>
    </tr>
    <tr>
       <td>0x0B</td>
       <td>RekeyConf</td>
       <td></td>
       <td>x</td>
-      <td></td>
+      <td>RekeyInd 的确认</td>
    </tr>
    <tr>
       <td>0x0C</td>
       <td>ADRParamSetupReq</td>
       <td></td>
       <td>x</td>
-      <td></td>
+      <td>网络服务器用来设置终端设备的 ADR_ACK_LIMT 和 ADR_ACK_DELAY 参数</td>
    </tr>
    <tr>
       <td>0x0C</td>
       <td>ADRParamSetupAns</td>
       <td>x</td>
       <td></td>
-      <td></td>
+      <td>应答 ADRParamSetupReq</td>
    </tr>
    <tr>
       <td>0x0D</td>
       <td>DeviceTimeReq</td>
       <td>x</td>
       <td></td>
-      <td></td>
+      <td>终端设备用于请求当前日期和时间</td>
    </tr>
    <tr>
       <td>0x0D</td>
       <td>DeviceTimeReq</td>
       <td></td>
       <td>x</td>
-      <td></td>
+      <td>回应 DeviceTimeReq 命令</td>
    </tr>
    <tr>
       <td>0x0E</td>
       <td>ForceRejoinReq</td>
       <td></td>
       <td>x</td>
-      <td></td>
+      <td>网络发送，要求终端立即通过可选的周期性重试重新入网</td>
    </tr>
    <tr>
       <td>0x0F</td>
       <td>RejoinParamSetupReq</td>
       <td></td>
       <td>x</td>
-      <td></td>
+      <td>网络用于设置设备周期性重新入网连接消息</td>
    </tr>
    <tr>
       <td>0x0F</td>
       <td>RejoinParamSetupAns</td>
       <td>x</td>
       <td></td>
-      <td></td>
+      <td>对 RejoinParamSetupReq 命令的应答</td>
    </tr>
    <tr>
       <td>0x80~0xFF</td>
       <td>私有</td>
       <td>x</td>
       <td>x</td>
-      <td>给私有网络命令拓展做预留。</td>
+      <td>给专有网络命令拓展做预留</td>
    </tr>
 </table>
 
 *表4：MAC命令表*
 
-> 注意：MAC命令的长度虽然没有明确给出，但是MAC执行层必须要知道。因此未知的MAC命令无法被忽略，且前面未知的MAC命令会终止MAC命令的处理队列。所以建议按照LoRaWAN协议介绍的MAC命令来处理MAC命令。这样所有基于LoRaWAN协议的MAC命令都可以被处理，即使是更高版本的命令。
 
-> 注意：由网络服务器调整的任何值（例如，RX2、新的或已调整的信道定义）仅在终端设备的下一次加网之前有效。因此，在每个成功加网之后，终端设备将再次使用默认参数，并由网络服务器根据需要重新调整值。
+> **注意：**一般情况下，终端设备对接收到的 Mac 命令只响应一次。如果答案丢失，则网络必须重新发送该命令。当接收到不包含答案的新上行链路时，网络决定必须重新发送该命令。只有**RxParamSetupReq**、**RxTimingSetupReq** 和 **DlChannelReq** 在它们的相关部分中描述了不同的确认机制，因为它们影响下行参数。
 
+> **注意：**当终端设备启动 MAC 命令时，网络会尽最大努力在请求之后立即在 RX1/RX2 窗口中发送确认或应答。如果在那个插槽中没有接收到答案，则终端设备可以自由地实现它需要的任何重试机制。
 
-> note1
-> note2
-> note3
+> **注意：**MAC 命令的长度不是显式给定的，必须由 MAC 的实现隐性得知。因此，未知的 MAC 无法跳过，第一个未知的 MAC 命令终止对 MAC 命令序列的处理。因此，建议根据首次引入 MAC 命令的 LoRaWAN 规范的版本来处理 MAC 命令。这样，即使存在只在比实现的规范更新的版本中指定的 MAC 命令，也可以处理到实现的规范版本之前的所有MAC命令。
 
 

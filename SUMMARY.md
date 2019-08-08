@@ -39,6 +39,8 @@
     * [5.12](contents/ch05/5.12.md)
     * [5.13](contents/ch05/5.13.md)
     * [5.14](contents/ch05/5.14.md) 
+
+<!--
 * [6 终端激活](contents/ch06/README.md)
 * [7 重传退避](contents/ch07/README.md)
 
@@ -59,7 +61,7 @@
 
 * [CLASS C - 持续接收](contents/CLASS-C.md)
 * [17 持续接收的终端](contents/ch17/README.md)
-
+-->
 ---
 
 * [22 Revisions](contents/ch22/README.md)
@@ -68,4 +70,6 @@
     * [22.3 Revision 1.0.2](contents/ch22/22.3.md)
     * [22.4 Revision 1.1](contents/ch22/22.4.md)
 * [23 词汇表](Glossary.md)
+* [24 Bibliography](contents/ch24/README.md)
+* [25 NOTICE OF USE AND DISCLOSUE](contents/ch25/README.md)
 
