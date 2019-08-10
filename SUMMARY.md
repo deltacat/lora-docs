@@ -1,6 +1,6 @@
 # Summary
 
-* [翻译说明](README.md)
+* [译序](README.md)
 * [原版权信息](Copyright.md)
 <!-- * [目录](Summary-Detail.md) -->
 
@@ -64,6 +64,13 @@
 -->
 ---
 
+* [SUPPORT INFORMATION](contents/SUPPORT.md)
+* [19 Examples and Application Information](contents/ch19/README.md)
+    * [19.1 Uplink Timing Diagram for Confirmed Data Messages](contents/ch19/19.1.md)
+    * [19.2 Downlink Diagram for Confirmed Data Messages](contents/ch19/19.2.md)
+    * [19.3 Downlink Timing for Frame-Pending Messages](contents/ch19/19.3.md)
+* [20 Recommendation on contract to be provided to the Network Server by the end-device provider at the time of provisioning](contents/ch20/README.md)
+* [21 Recommendation on finding the locally used channels](contents/ch21/README.md)
 * [22 修订历史](contents/ch22/README.md)
     * [22.1 Revision 1.0](contents/ch22/22.1.md)
     * [22.2 Revision 1.0.1](contents/ch22/22.2.md)
