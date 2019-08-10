@@ -1,8 +1,11 @@
 {
     "title": "LoRaWan Specification V1.1 中文版",
-    "description": "",  
+    "description": "LoRaWan Specification V1.1 中文版。译自 LoRa 联盟官方规格说明书。",  
     "author": "catking",
     "language": "zh-hans",
+    "styles": {
+        "website": "./css/custom.css"
+    },
     "links": {
         "sidebar": {
         }
@@ -28,9 +31,12 @@
         "-lunr",
         "-search",
         "search-plus",
-        "sharing-plus",
-        "simple-page-toc",
-        "tbfed-pagefooter"
+        "-sharing-plus",
+        "-simple-page-toc",
+        "tbfed-pagefooter",
+        "-github",
+        "github-buttons",
+        "-anchor-navigation-ex"
     ],
     "pluginsConfig": {
         "expandable-chapters-small": {},
@@ -42,6 +48,21 @@
           "copyright":"Copyright &copy <a href=http://www.catxn.net>猫老师</a> 2019",
           "modify_label": "本节修订于 ",
           "modify_format": "YYYY-MM-DD"
+        },
+        "github": {
+            "url": "https://github.com/zhangjikai"
+        },
+        "github-buttons": {
+            "buttons": [{
+                "user": "deltacat",
+                "repo": "lorawan-spec-v1.1-cn",
+                "type": "star",
+                "count": true,
+                "size": "large"                
+            }]
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false
         },
         "sharing": {
             "douban": false,

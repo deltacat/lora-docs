@@ -1,9 +1,3 @@
-<style>
-table {
-    text-align: center;
-}
-</style>
-
 ## **第5章 MAC命令**
 
 对网络管理者而言，有一套专门的 MAC 命令用来在网络服务器和终端 MAC 层之间交互。MAC 层指令对应用程序或者应用服务器或者运行在终端设备上的应用程序是不可见的。
@@ -22,7 +16,7 @@ MAC 指令由接收端按与传输命令相同的顺序应答或确认。每个 
 
 网络服务器应（SHALL）基于下表计算可用于响应 MAC 指令的最大 FRMPayload 大小:
 
-<table>
+<table class="lora-table">
    <tr>
       <td rowspan="2" ><b>CID</b></td>
       <td rowspan="2" ><b>Command</b></td>

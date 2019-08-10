@@ -1,10 +1,3 @@
-
-<style>
-table {
-    text-align: center;
-}
-</style>
-
 ## **第4章 MAC帧格式**
 
 所有 LoRa 上下行消息都会携带 PHY 载荷（**Payload**），PHY载荷以单一八位字节 MAC 头（**MHDR**）开始，紧接着 MAC 载荷（**MACPayload**）[^1]，最后是4字节的消息校验码（**MIC**）。
@@ -79,8 +72,7 @@ table {
 
 *图8.帧头结构*
 
-
-> 注：
+---
 
 [^1]: 最大有效载荷的长度详见第6章。
 [^2]: 对于Join-Accept帧，MIC字段使用有效载荷加密，而不是单独的字段.

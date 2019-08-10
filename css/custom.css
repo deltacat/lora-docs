@@ -1,0 +1,22 @@
+/*.gitbook-link {
+  display: none !important;
+}
+*/
+
+/*.summary .divider {
+  display: none !important;
+}*/
+
+table.lora-table {
+    text-align: center;
+}
+
+.markdown-section hr{
+	height: 1px !important;
+	/*border-bottom: 1px dashed #e7e7e7 !important;*/
+	padding: 0;
+	margin: 1.7em 0;
+	overflow:hidden;
+	background-color:#efefef; 
+	border:none;
+}
