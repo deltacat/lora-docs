@@ -25,7 +25,7 @@
     * [4.3 MAC载荷（MACPayload）](contents/ch04/4.3.md)
     * [4.4 消息校验码](contents/ch04/4.4.md) 
 * [5 MAC命令](contents/ch05/README.md)
-    * [5.1](contents/ch05/5.1.md) 
+    * [5.1 复位指示命令（ResetInd, ResetConf）](contents/ch05/5.1.md) 
     * [5.2](contents/ch05/5.2.md)
     * [5.3](contents/ch05/5.3.md)
     * [5.4](contents/ch05/5.4.md)
@@ -43,10 +43,13 @@
 <!--
 * [6 终端激活](contents/ch06/README.md)
 * [7 重传退避](contents/ch07/README.md)
+-->
 
 ----
 
 * [CLASS B - 信标](contents/CLASS-B.md)
+
+<!--
 * [8 Class B 介绍](contents/ch08/README.md)
 * [9 下行同步网络的原理](contents/ch09/README.md)
 * [10 Class B 上行帧](contents/ch10/README.md)
@@ -56,12 +59,16 @@
 * [14 Class B MAC命令](contents/ch14/README.md)
 * [15 信标](contents/ch15/README.md)
 * [16 Class B 单播/多播下行信道频率](contents/ch16/README.md)
+-->
 
 ---- 
 
 * [CLASS C - 持续接收](contents/CLASS-C.md)
+
+<!--
 * [17 持续接收的终端](contents/ch17/README.md)
 -->
+
 ---
 
 * [SUPPORT INFORMATION](contents/SUPPORT.md)
