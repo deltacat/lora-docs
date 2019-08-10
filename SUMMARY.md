@@ -93,5 +93,7 @@
 
 --- 
 
-资料汇编
+* [附录资料](contents/appendix/README.md)
+* [Building LoRaServer](contents/appendix/build-lora-server.md)
+* [LoRa 学习资料链接](contents/appendix/references.md) 
 
