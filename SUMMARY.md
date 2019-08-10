@@ -9,8 +9,8 @@
 * [1 介绍](contents/ch01/README.md)
     * [1.1 LoRaWAN Classes](contents/ch01/1.1.md)
     * [1.2 文档约定](contents/ch01/1.2.md)
-* [2 介绍 LoRaWAN 选型](contents/ch02/README.md)
-    * [2.1 LoRaWAN 级别](contents/ch02/2.1.md)
+* [2 LoRaWAN 选型](contents/ch02/README.md)
+    * [2.1 LoRaWAN 的级别](contents/ch02/2.1.md)
 
 ----
 
@@ -26,8 +26,8 @@
     * [4.4 消息校验码](contents/ch04/4.4.md) 
 * [5 MAC命令](contents/ch05/README.md)
     * [5.1 复位指示命令（ResetInd, ResetConf）](contents/ch05/5.1.md) 
-    * [5.2](contents/ch05/5.2.md)
-    * [5.3](contents/ch05/5.3.md)
+    * [5.2 链路检查命令](contents/ch05/5.2.md)
+    * [5.3 数据速率适应指令](contents/ch05/5.3.md)
     * [5.4](contents/ch05/5.4.md)
     * [5.5](contents/ch05/5.5.md)
     * [5.6](contents/ch05/5.6.md)
@@ -67,6 +67,7 @@
 
 <!--
 * [17 持续接收的终端](contents/ch17/README.md)
+* [18 Class C MAC Command]()
 -->
 
 ---
@@ -78,6 +79,9 @@
     * [19.3 Downlink Timing for Frame-Pending Messages](contents/ch19/19.3.md)
 * [20 Recommendation on contract to be provided to the Network Server by the end-device provider at the time of provisioning](contents/ch20/README.md)
 * [21 Recommendation on finding the locally used channels](contents/ch21/README.md)
+
+---
+
 * [22 修订历史](contents/ch22/README.md)
     * [22.1 Revision 1.0](contents/ch22/22.1.md)
     * [22.2 Revision 1.0.1](contents/ch22/22.2.md)
@@ -86,4 +90,8 @@
 * [23 词汇表](Glossary.md)
 * [24 参考文献](contents/ch24/README.md)
 * [25 使用和披露](Copyright.md)
+
+--- 
+
+资料汇编
 
