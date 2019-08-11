@@ -124,3 +124,24 @@ Transmitter
 
 Universal Serial Bus
 
+# 参考文献缩写
+
+以下缩写详情在原文 [Bibliography](contents/ch24/README.md) 中。为避免与其他术语混淆（如 PHY），在原缩写后添加 ”-DOC“。
+
+## IEEE802154-DOC
+
+IEEE Standard for Local and Metropolitan Area Networks—Part 15.4: Low-Rate Wireless Personal Area Networks (LR-WPANs), IEEE Std 802.15.4TM-2011 (Revision of IEEE Std 802.15.4-2006), September 2011.
+
+## RFC4493-DOC
+
+The AES-CMAC Algorithm, June 2006.
+
+## PHY-DOC
+
+LoRaWAN Regional parameters v1.1, LoRa Alliance
+
+## BACKEND-DOC
+
+LoRaWAN backend Interfaces specification v1.0, LoRa Alliance
+
+
