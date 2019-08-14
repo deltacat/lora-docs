@@ -5,6 +5,8 @@
 - [官网](https://lora-alliance.org)
 - [LoRanWAN Spec v1.1](https://lora-alliance.org/resource-hub/lorawanr-specification-v11)
 - [官方资料库](https://lora-alliance.org/resource-hub)
+- [Semtech Basic communication protocol between Lora gateway and server
+](https://github.com/Lora-net/packet_forwarder/blob/master/PROTOCOL.TXT)
 
 ## Remi 专家的 LoRa Wan 系列文章
 

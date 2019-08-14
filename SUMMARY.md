@@ -64,11 +64,11 @@
 ---- 
 
 * [CLASS C - 持续接收](contents/CLASS-C.md)
-
-<!--
 * [17 持续接收的终端](contents/ch17/README.md)
-* [18 Class C MAC Command]()
--->
+    * [17.1 第二接收窗口持续时间](contents/ch17/17.1)
+    * [17.2 对多播下行的处理](contents/ch17/17.2)
+* [18 Class C 的 MAC 指令](contents/ch18/README.md)
+    * [18.1设备模式](contents/ch18/18.1.md)
 
 ---
 
@@ -93,7 +93,7 @@
 
 --- 
 
-* [附录资料](contents/appendix/README.md)
+* [附录](contents/appendix/README.md)
 * [Building LoRaServer](contents/appendix/build-lora-server.md)
-* [LoRa 学习资料链接](contents/appendix/references.md) 
+* [LoRa 学习资料汇编](contents/appendix/references.md) 
 

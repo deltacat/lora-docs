@@ -7,8 +7,13 @@
   display: none !important;
 }*/
 
-table.lora-table {
+.lora-table {
     text-align: center;
+}
+
+.lora-table .td-cmd {
+	font-weight: bold;
+	font-style: italic;
 }
 
 .markdown-section hr{
