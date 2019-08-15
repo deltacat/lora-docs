@@ -1,5 +1,4 @@
 
-# CLASS C – CONTINUOUSLY LISTENING
+# CLASS C – 持续接收
 
-包括 17，18 章，整理中。
 

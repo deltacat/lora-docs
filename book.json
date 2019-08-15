@@ -45,7 +45,7 @@
             "skipFirstH1": true
         },
         "tbfed-pagefooter": {
-          "copyright":"Copyright &copy <a href=http://www.catxn.net>猫老师</a> 2019",
+          "copyright":"Enjoy! &copy<!--Copyright &copy <a href=http://www.catxn.net>猫老师</a> 2019-->",
           "modify_label": "本节修订于 ",
           "modify_format": "YYYY-MM-DD"
         },
@@ -58,7 +58,7 @@
                 "repo": "lorawan-spec-v1.1-cn",
                 "type": "star",
                 "count": true,
-                "size": "large"                
+                "size": "small"                
             }]
         },
         "anchor-navigation-ex": {

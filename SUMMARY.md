@@ -39,10 +39,11 @@
     * [5.12 设备时间](contents/ch05/5.12.md)
     * [5.13 强制重连](contents/ch05/5.13.md)
     * [5.14 重连参数设置](contents/ch05/5.14.md) 
+* [7 重传退避](contents/ch07/README.md)
 
 <!--
 * [6 终端激活](contents/ch06/README.md)
-* [7 重传退避](contents/ch07/README.md)
+
 -->
 
 ----
@@ -65,8 +66,8 @@
 
 * [CLASS C - 持续接收](contents/CLASS-C.md)
 * [17 持续接收的终端](contents/ch17/README.md)
-    * [17.1 第二接收窗口持续时间](contents/ch17/17.1)
-    * [17.2 对多播下行的处理](contents/ch17/17.2)
+    * [17.1 第二接收窗口持续时间](contents/ch17/17.1.md)
+    * [17.2 对多播下行的处理](contents/ch17/17.2.md)
 * [18 Class C 的 MAC 指令](contents/ch18/README.md)
     * [18.1 设备模式](contents/ch18/18.1.md)
 

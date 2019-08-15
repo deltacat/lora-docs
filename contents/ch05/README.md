@@ -1,6 +1,6 @@
-## **第5章 MAC命令**
+## 5 MAC 指令
 
-对网络管理者而言，有一套专门的 MAC 命令用来在网络服务器和终端 MAC 层之间交互。MAC 层指令对应用程序或者应用服务器或者运行在终端设备上的应用程序是不可见的。
+对网络管理者而言，有一套专门的 MAC 指令用来在网络服务器和终端 MAC 层之间交互。MAC 层指令对应用程序或者应用服务器或者运行在终端设备上的应用程序是不可见的。
 
 单个数据帧中可以包含任意 MAC 指令序列，要么在 **FOpts** 字段中捎带，要么作为独立帧将 **FPort** 设成 0 后放在 **FRMPayload** 里。FOpts 捎带的 MAC 指令总是要经过加密后发送并且长度不能超过 15 字节。通过 **FRMPayload** 发送的 MAC 指令也总是要经过加密，并且不能（MUST NOT）超过 **FRMPayload** 的最大长度。
 
@@ -29,213 +29,213 @@ MAC 指令由接收端按与传输命令相同的顺序应答或确认。每个 
    </tr>
    <tr>
       <td>0x01</td>
-      <td>ResetInd</td>
+      <td class="td-cmd">ResetInd</td>
       <td>x</td>
       <td></td>
-      <td>ABP设备用于指示对网络的重置并协商协议版本</td>
+      <td class="td-cmd-desc">ABP设备用于指示对网络的重置并协商协议版本</td>
    </tr>
    <tr>
       <td>0x01</td>
-      <td>ResetConf</td>
+      <td class="td-cmd">ResetConf</td>
       <td></td>
       <td>x</td>
-      <td>确认 ResetInd 指令</td>
+      <td class="td-cmd-desc">确认 ResetInd 指令</td>
    </tr>
    <tr>
       <td>0x02</td>
-      <td>LinkCheckReq</td>
+      <td class="td-cmd">LinkCheckReq</td>
       <td>x</td>
       <td></td>
-      <td>终端利用这个命令来判断网络连接质量</td>
+      <td class="td-cmd-desc">终端利用这个命令来判断网络连接质量</td>
    </tr>
    <tr>
       <td>0x02</td>
-      <td>LinkCheckAns</td>
+      <td class="td-cmd">LinkCheckAns</td>
       <td></td>
       <td>x</td>
-      <td>LinkCheckReq 的回应。包含向终端设备指示接收质量(链路裕度)的接收信号功率估计</td>
+      <td class="td-cmd-desc">LinkCheckReq 的回应。包含向终端设备指示接收质量(链路裕度)的接收信号功率估计</td>
    </tr>
    <tr>
       <td>0x03</td>
-      <td>LinkADRReq</td>
+      <td class="td-cmd">LinkADRReq</td>
       <td></td>
       <td>x</td>
-      <td>向终端请求改变数据速率，发射功率，重传率以及信道</td>
+      <td class="td-cmd-desc">向终端请求改变数据速率，发射功率，重传率以及信道</td>
    </tr>
    <tr>
       <td>0x03</td>
-      <td>LinkADRAns</td>
+      <td class="td-cmd">LinkADRAns</td>
       <td>x</td>
       <td></td>
-      <td>LinkADRReq 的回应</td>
+      <td class="td-cmd-desc">LinkADRReq 的回应</td>
    </tr>
    <tr>
       <td>0x04</td>
-      <td>DutyCycleReq</td>
+      <td class="td-cmd">DutyCycleReq</td>
       <td></td>
       <td>x</td>
-      <td>向终端设置发送的最大占空比</td>
+      <td class="td-cmd-desc">向终端设置发送的最大占空比</td>
    </tr>
    <tr>
       <td>0x04</td>
-      <td>DutyCycleAns</td>
+      <td class="td-cmd">DutyCycleAns</td>
       <td>x</td>
       <td></td>
-      <td>DutyCycleReq 的回应</td>
+      <td class="td-cmd-desc">DutyCycleReq 的回应</td>
    </tr>
    <tr>
       <td>0x05</td>
-      <td>RXParamSetupReq</td>
+      <td class="td-cmd">RXParamSetupReq</td>
       <td></td>
       <td>x</td>
-      <td>向终端设置接收时隙参数</td>
+      <td class="td-cmd-desc">向终端设置接收时隙参数</td>
    </tr>
    <tr>
       <td>0x05</td>
-      <td>RXParamSetupAns</td>
+      <td class="td-cmd">RXParamSetupAns</td>
       <td>x</td>
       <td></td>
-      <td>RXParamSetupReq的回复</td>
+      <td class="td-cmd-desc">RXParamSetupReq的回复</td>
    </tr>
    <tr>
       <td>0x06</td>
-      <td>DevStatusReq</td>
+      <td class="td-cmd">DevStatusReq</td>
       <td></td>
       <td>x</td>
-      <td>向终端查询其状态</td>
+      <td class="td-cmd-desc">向终端查询其状态</td>
    </tr>
    <tr>
       <td>0x06</td>
-      <td>DevStatusAns</td>
+      <td class="td-cmd">DevStatusAns</td>
       <td>x</td>
       <td></td>
-      <td>返回终端设备的状态，即电池余量和链路解调裕度。</td>
+      <td class="td-cmd-desc">返回终端设备的状态，即电池余量和链路解调裕度。</td>
    </tr>
    <tr>
       <td>0x07</td>
-      <td>NewChannelReq</td>
+      <td class="td-cmd">NewChannelReq</td>
       <td></td>
       <td>x</td>
-      <td>创建或修改 1个射频信道定义</td>
+      <td class="td-cmd-desc">创建或修改 1个射频信道定义</td>
    </tr>
    <tr>
       <td>0x07</td>
-      <td>NewChannelAns</td>
+      <td class="td-cmd">NewChannelAns</td>
       <td>x</td>
       <td></td>
-      <td>NewChannelReq 的回复</td>
+      <td class="td-cmd-desc">NewChannelReq 的回复</td>
    </tr>
    <tr>
       <td>0x08</td>
-      <td>RXTimingSetupReq</td>
+      <td class="td-cmd">RXTimingSetupReq</td>
       <td></td>
       <td>x</td>
-      <td>设置接收时隙的时间</td>
+      <td class="td-cmd-desc">设置接收时隙的时间</td>
    </tr>
    <tr>
       <td>0x08</td>
-      <td>RXTimingSetupAns</td>
+      <td class="td-cmd">RXTimingSetupAns</td>
       <td>x</td>
       <td></td>
-      <td>RXTimingSetupReq 的回复</td>
+      <td class="td-cmd-desc">RXTimingSetupReq 的回复</td>
    </tr>
    <tr>
       <td>0x09</td>
-      <td>TxParamSetupReq</td>
+      <td class="td-cmd">TxParamSetupReq</td>
       <td></td>
       <td>x</td>
-      <td>网络服务器用于设置基于当地规定的终端的最大允许驻留时间和最大EIRP</td>
+      <td class="td-cmd-desc">网络服务器用于设置基于当地规定的终端的最大允许驻留时间和最大EIRP</td>
    </tr>
    <tr>
       <td>0x09</td>
-      <td>TxParamSetupAns</td>
+      <td class="td-cmd">TxParamSetupAns</td>
       <td>x</td>
       <td></td>
-      <td>TxParamSetupReq的回复。</td>
+      <td class="td-cmd-desc">TxParamSetupReq的回复。</td>
    </tr>
    <tr>
       <td>0x0A</td>
-      <td>DlChannelReq</td>
+      <td class="td-cmd">DlChannelReq</td>
       <td></td>
       <td>x</td>
-      <td>通过从上行链路频率移位下行链路频率（如创建非对称信道）来修改下行链路RX1无线电信道的定义</td>
+      <td class="td-cmd-desc">通过从上行链路频率移位下行链路频率（如创建非对称信道）来修改下行链路RX1无线电信道的定义</td>
    </tr>
    <tr>
       <td>0x0A</td>
-      <td>DlChannelAns</td>
+      <td class="td-cmd">DlChannelAns</td>
       <td>x</td>
       <td></td>
-      <td>DlChannelReq 的回复</td>
+      <td class="td-cmd-desc">DlChannelReq 的回复</td>
    </tr>
     <tr>
       <td>0x0B</td>
-      <td>RekeyInd</td>
+      <td class="td-cmd">RekeyInd</td>
       <td>x</td>
       <td></td>
-      <td>OTA 设备用于发出安全上下文更新信号(rekeying)</td>
+      <td class="td-cmd-desc">OTA 设备用于发出安全上下文更新信号(rekeying)</td>
    </tr>
    <tr>
       <td>0x0B</td>
-      <td>RekeyConf</td>
+      <td class="td-cmd">RekeyConf</td>
       <td></td>
       <td>x</td>
-      <td>RekeyInd 的确认</td>
+      <td class="td-cmd-desc">RekeyInd 的确认</td>
    </tr>
    <tr>
       <td>0x0C</td>
-      <td>ADRParamSetupReq</td>
+      <td class="td-cmd">ADRParamSetupReq</td>
       <td></td>
       <td>x</td>
-      <td>网络服务器用来设置终端设备的 ADR_ACK_LIMT 和 ADR_ACK_DELAY 参数</td>
+      <td class="td-cmd-desc">网络服务器用来设置终端设备的 ADR_ACK_LIMT 和 ADR_ACK_DELAY 参数</td>
    </tr>
    <tr>
       <td>0x0C</td>
-      <td>ADRParamSetupAns</td>
+      <td class="td-cmd">ADRParamSetupAns</td>
       <td>x</td>
       <td></td>
-      <td>应答 ADRParamSetupReq</td>
+      <td class="td-cmd-desc">应答 ADRParamSetupReq</td>
    </tr>
    <tr>
       <td>0x0D</td>
-      <td>DeviceTimeReq</td>
+      <td class="td-cmd">DeviceTimeReq</td>
       <td>x</td>
       <td></td>
-      <td>终端设备用于请求当前日期和时间</td>
+      <td class="td-cmd-desc">终端设备用于请求当前日期和时间</td>
    </tr>
    <tr>
       <td>0x0D</td>
-      <td>DeviceTimeReq</td>
+      <td class="td-cmd">DeviceTimeReq</td>
       <td></td>
       <td>x</td>
-      <td>回应 DeviceTimeReq 命令</td>
+      <td class="td-cmd-desc">回应 DeviceTimeReq 命令</td>
    </tr>
    <tr>
       <td>0x0E</td>
-      <td>ForceRejoinReq</td>
+      <td class="td-cmd">ForceRejoinReq</td>
       <td></td>
       <td>x</td>
-      <td>网络发送，要求终端立即通过可选的周期性重试重新入网</td>
+      <td class="td-cmd-desc">网络发送，要求终端立即通过可选的周期性重试重新入网</td>
    </tr>
    <tr>
       <td>0x0F</td>
-      <td>RejoinParamSetupReq</td>
+      <td class="td-cmd">RejoinParamSetupReq</td>
       <td></td>
       <td>x</td>
-      <td>网络用于设置设备周期性重新入网连接消息</td>
+      <td class="td-cmd-desc">网络用于设置设备周期性重新入网连接消息</td>
    </tr>
    <tr>
       <td>0x0F</td>
-      <td>RejoinParamSetupAns</td>
+      <td class="td-cmd">RejoinParamSetupAns</td>
       <td>x</td>
       <td></td>
-      <td>对 RejoinParamSetupReq 命令的应答</td>
+      <td class="td-cmd-desc">对 RejoinParamSetupReq 命令的应答</td>
    </tr>
    <tr>
       <td>0x80~0xFF</td>
       <td>私有</td>
       <td>x</td>
       <td>x</td>
-      <td>给专有网络命令拓展做预留</td>
+      <td class="td-cmd-desc">给专有网络命令拓展做预留</td>
    </tr>
 </table>
 
