@@ -43,6 +43,11 @@
 * [6 终端激活](contents/ch06/README.md)
     * [6.1 终端数据存储](contents/ch06/6.1.md) 
     * [6.2 空中激活 OTAA](contents/ch06/6.2.md)
+        * [6.2.1 连接过程](contents/ch06/6.2.md#621-连接过程)
+        * [6.2.2 Join-Request](contents/ch06/6.2.md#622-join-request-message)
+        * [6.2.3 Join-Accept](contents/ch06/6.2.md#623-join-accept-message)
+        * [6.2.4 Rejoin-Request](contents/ch06/6.2.md#624-rejoin-request-message)
+        * [6.2.5 密钥派生](contents/ch06/6.2.md#625-密钥派生图表)
     * [6.3 个性化激活 ABP](contents/ch06/6.3.md) 
 
 ----

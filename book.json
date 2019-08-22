@@ -36,7 +36,10 @@
         "tbfed-pagefooter",
         "-github",
         "github-buttons",
-        "-anchor-navigation-ex"
+        "-anchor-navigation-ex",
+        "-prism",
+        "-highlight",
+        "anchors"
     ],
     "pluginsConfig": {
         "expandable-chapters-small": {},
