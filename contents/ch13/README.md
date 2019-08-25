@@ -41,7 +41,7 @@
 
 **N** 称为时隙编号。
 
-最后一个 ping 时隙时段(编号为4095)的开始时间是在 beacon start 后的 beacon_reserved + 4095 * 30 ms = 124970ms 或者下一个信标开始前的 3030ms。
+最后一个 ping 时隙时段（编号为4095）的开始时间是在 beacon start 后的 beacon_reserved + 4095 * 30 ms = 124970ms 或者下一个信标开始前的 3030ms。
 
 ### <a name="13.2">13.2 时隙随机化</a>
 

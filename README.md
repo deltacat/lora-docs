@@ -5,7 +5,7 @@
 
 [*LoRaWAN Specification*](https://lora-alliance.org/resource-hub/lorawanr-specification-v11) 是 [LoRa 联盟](https://lora-alliance.org)规范的核心协议。
 
-本项目是 V1.1 的中文译本。出于个人学习梳理的目的进行整理。
+本项目是 V1.1 的中文译本。出于个人学习梳理的目的进行整理。LoraWAN 规范原版权声明见[原文第25章](contents/ch25/)。
 
 初始版本继承自项目：[twowinter 的 LoRaWan 规范中文化项目][twowinter]。原项目 v1.0.2 已正式发布。V1.1 翻译整理中。
 

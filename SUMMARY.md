@@ -1,7 +1,6 @@
 # Summary
 
 * [译序](README.md)
-* [原版权信息](Copyright.md)
 <!-- * [目录](Summary-Detail.md) -->
 
 ----
@@ -94,7 +93,7 @@
     * [22.4 Revision 1.1](contents/ch22/22.4.md)
 * [23 词汇表](Glossary.md)
 * [24 参考文献](contents/ch24/README.md)
-* [25 使用和披露](Copyright.md)
+* [25 使用和披露](contents/ch25/README.md)
 
 --- 
 

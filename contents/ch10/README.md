@@ -2,7 +2,7 @@
 
 ## **第10章 Class B 模式的上行帧**
 
-Class B 模式的上行帧和 Class A 的基本一样，除了帧头Fctrl字段的RFU位域有所不同。在 Class A 上行帧中这个位没有使用(RFU)，而在 Class B 中有使用。
+Class B 模式的上行帧和 Class A 的基本一样，除了帧头Fctrl字段的RFU位域有所不同。在 Class A 上行帧中这个位没有使用（RFU），而在 Class B 中有使用。
 
 <table>
    <tr>

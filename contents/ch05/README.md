@@ -4,7 +4,7 @@
 
 单个数据帧中可以包含任意 MAC 指令序列，要么在 **FOpts** 字段中捎带，要么作为独立帧将 **FPort** 设成 0 后放在 **FRMPayload** 里。FOpts 捎带的 MAC 指令总是要经过加密后发送并且长度不能超过 15 字节。通过 **FRMPayload** 发送的 MAC 指令也总是要经过加密，并且不能（MUST NOT）超过 **FRMPayload** 的最大长度。
 
-MAC 命令是由 1 字节命令码 (command identifier，CID) 跟着一段可能为空的特定命令字节序列组成的。
+MAC 命令是由 1 字节命令码（command identifier，CID）跟着一段可能为空的特定命令字节序列组成的。
 
 MAC 指令由接收端按与传输命令相同的顺序应答或确认。每个 MAC 指令的回应依次添加到缓冲区中。所有在单个帧中接收到的 MAC 指令也必须在单个帧中回应，这意味着包含回应的缓冲区必须在一帧中发送。如果 MAC 指令回应缓冲区长度大于最大 FOpt 字段，设备必须（MUST）将缓冲区作为FRMPayload 发送到端口 0。
 
@@ -53,7 +53,7 @@ MAC 指令由接收端按与传输命令相同的顺序应答或确认。每个 
       <td class="td-cmd">LinkCheckAns</td>
       <td></td>
       <td>x</td>
-      <td class="td-cmd-desc">LinkCheckReq 的回应。包含向终端设备指示接收质量(链路裕度)的接收信号功率估计</td>
+      <td class="td-cmd-desc">LinkCheckReq 的回应。包含向终端设备指示接收质量（链路裕度）的接收信号功率估计</td>
    </tr>
    <tr>
       <td>0x03</td>
@@ -172,7 +172,7 @@ MAC 指令由接收端按与传输命令相同的顺序应答或确认。每个 
       <td class="td-cmd">RekeyInd</td>
       <td>x</td>
       <td></td>
-      <td class="td-cmd-desc">OTA 设备用于发出安全上下文更新信号(rekeying)</td>
+      <td class="td-cmd-desc">OTA 设备用于发出安全上下文更新信号（Rekeying)</td>
    </tr>
    <tr>
       <td>0x0B</td>
