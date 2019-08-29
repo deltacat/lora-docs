@@ -11,9 +11,9 @@
 * [2 LoRaWAN 选型](contents/ch02/README.md)
     * [2.1 LoRaWAN 的级别](contents/ch02/2.1.md)
 
-----
+## CLASS A - 所有终端
 
-* [CLASS A - 所有终端](contents/CLASS-A.md)
+<!--* [CLASS A - 所有终端](contents/CLASS-A.md)-->
 * [3 PHY 帧格式](contents/ch03/README.md)
     * [3.1 上行消息](contents/ch03/3.1.md)
     * [3.2 下行消息](contents/ch03/3.2.md)
@@ -49,12 +49,13 @@
         * [6.2.5 密钥派生](contents/ch06/6.2.md#625-密钥派生图表)
     * [6.3 个性化激活 ABP](contents/ch06/6.3.md) 
 
-----
+## CLASS B - 信标
 
-* [CLASS B - 信标](contents/CLASS-B.md)
+<!--* [CLASS B - 信标](contents/CLASS-B.md)-->
+* [8 Class B 介绍](contents/ch08/README.md)
 
 <!--
-* [8 Class B 介绍](contents/ch08/README.md)
+
 * [9 下行同步网络的原理](contents/ch09/README.md)
 * [10 Class B 上行帧](contents/ch10/README.md)
 * [11 Class B 下行帧](contents/ch11/README.md)
@@ -65,26 +66,24 @@
 * [16 Class B 单播/多播下行信道频率](contents/ch16/README.md)
 -->
 
----- 
+## CLASS C - 持续接收
 
-* [CLASS C - 持续接收](contents/CLASS-C.md)
+<!--* [CLASS C - 持续接收](contents/CLASS-C.md)-->
 * [17 持续接收的终端](contents/ch17/README.md)
     * [17.1 第二接收窗口持续时间](contents/ch17/17.1.md)
     * [17.2 对多播下行的处理](contents/ch17/17.2.md)
 * [18 Class C 的 MAC 指令](contents/ch18/README.md)
     * [18.1 设备模式](contents/ch18/18.1.md)
 
----
+## 支持信息
 
-* [SUPPORT INFORMATION](contents/SUPPORT.md)
+<!--* [SUPPORT INFORMATION](contents/SUPPORT.md)-->
 * [19 Examples and Application Information](contents/ch19/README.md)
     * [19.1 Uplink Timing Diagram for Confirmed Data Messages](contents/ch19/19.1.md)
     * [19.2 Downlink Diagram for Confirmed Data Messages](contents/ch19/19.2.md)
     * [19.3 Downlink Timing for Frame-Pending Messages](contents/ch19/19.3.md)
 * [20 Recommendation on contract to be provided to the Network Server by the end-device provider at the time of provisioning](contents/ch20/README.md)
 * [21 Recommendation on finding the locally used channels](contents/ch21/README.md)
-
----
 
 * [22 修订历史](contents/ch22/README.md)
     * [22.1 Revision 1.0](contents/ch22/22.1.md)
