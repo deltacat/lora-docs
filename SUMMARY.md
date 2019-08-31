@@ -49,14 +49,19 @@
 * [8 Class B 介绍](contents/ch08/README.md)
 * [9 下行同步网络的原理](contents/ch09/README.md)
 * [10 Class B 上行帧](contents/ch10/README.md)
+* [11 下行 Ping 帧格式](contents/ch11/README.md)
+    * [11.1 物理层帧格式](contents/ch11/11.1.md)
+    * [11.2 单播和多播 MAC 消息格式](contents/ch11/11.2.md)
+* [12 信标的获得和追踪](contents/ch12/README.md)
+    * [12.1 最小无信标操作时间](contents/ch12/12.1.md)
+    * [12.2 接收时扩展无信标操作](contents/ch12/12.2.md)
+    * [12.3 减少时序漂移](contents/ch12/12.3.md)
 * [16 Class B 单播/多播下行信道频率](contents/ch16/README.md)
     * [16.1 单信道信标传输](contents/ch16/16.1.md)
     * [16.2 跳频信标传输](contents/ch16/16.2.md)
 
 <!--
 
-* [11 Class B 下行帧](contents/ch11/README.md)
-* [12 信标的获得和追踪](contents/ch12/README.md)
 * [13 Class B 下行时隙时序](contents/ch13/README.md)
 * [14 Class B MAC命令](contents/ch14/README.md)
 * [15 信标](contents/ch15/README.md)
