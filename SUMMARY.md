@@ -46,16 +46,15 @@
 
 ## CLASS B - 信标
 
-<!--* [CLASS B - 信标](contents/CLASS-B.md)-->
 * [8 Class B 介绍](contents/ch08/README.md)
+* [9 下行同步网络的原理](contents/ch09/README.md)
+* [10 Class B 上行帧](contents/ch10/README.md)
 * [16 Class B 单播/多播下行信道频率](contents/ch16/README.md)
     * [16.1 单信道信标传输](contents/ch16/16.1.md)
     * [16.2 跳频信标传输](contents/ch16/16.2.md)
 
 <!--
 
-* [9 下行同步网络的原理](contents/ch09/README.md)
-* [10 Class B 上行帧](contents/ch10/README.md)
 * [11 Class B 下行帧](contents/ch11/README.md)
 * [12 信标的获得和追踪](contents/ch12/README.md)
 * [13 Class B 下行时隙时序](contents/ch13/README.md)

@@ -1,10 +1,10 @@
 
 
-## **第10章 Class B 模式的上行帧**
+## 第10章 Class B 模式的上行帧
 
-Class B 模式的上行帧和 Class A 的基本一样，除了帧头Fctrl字段的RFU位域有所不同。在 Class A 上行帧中这个位没有使用（RFU），而在 Class B 中有使用。
+Class B 模式的上行帧和 Class A 的基本一样，除了帧头 FCtrl 字段的 RFU 位有所不同。在 Class A 上行通讯中这个位没有使用（RFU）。这个位被 Class B 上行通讯使用。
 
-<table>
+<table class="lora-table">
    <tr>
       <td><b>Bit#</b></td>   
       <td>7</td>
@@ -14,7 +14,7 @@ Class B 模式的上行帧和 Class A 的基本一样，除了帧头Fctrl字段�
       <td>[3..0]</td>
    </tr>
    <tr>
-      <td><b>FCtrl bits</b></td>   
+      <td><b>FCtrl</b></td>   
       <td>ADR</td>
       <td>ADRACKReq</td>
       <td>ACK</td>
@@ -23,7 +23,9 @@ Class B 模式的上行帧和 Class A 的基本一样，除了帧头Fctrl字段�
    </tr>
 </table>
 
-上行帧中的 Class B 位域置为1，用于通知network server设备已切换到 Class B 模式，准备好接收下行ping包。
+*Figure 51 : classB FCtrl fields*
 
-下行帧的FPending位域的定义是不变的，仍然和Class A的定义一样，表示server有多个下行帧要下发，设备应当继续接收。
+上行帧中的 Class B 位置为 1，用于通知网络服务器设备已切换到 Class B 模式，准备好接收预定的下行 ping 包。
+
+下行 FPending 位意义没有变化，仍表示 server 有多个下行帧排队下发，设备应当继续接收，如 Class A 中的定义一样。
 
