@@ -39,7 +39,7 @@
         "-anchor-navigation-ex",
         "-prism",
         "-highlight",
-        "anchors"
+        "-anchors"
     ],
     "pluginsConfig": {
         "expandable-chapters-small": {},
