@@ -56,16 +56,17 @@
     * [12.1 最小无信标操作时间](contents/ch12/12.1.md)
     * [12.2 接收时扩展无信标操作](contents/ch12/12.2.md)
     * [12.3 减少时序漂移](contents/ch12/12.3.md)
+* [13 Class B 下行时隙时序](contents/ch13/README.md)
+    * [13.1 定义](contents/ch13/13.1.md)
+    * [13.2 时隙随机化](contents/ch13/13.2.md)
 * [16 Class B 单播/多播下行信道频率](contents/ch16/README.md)
     * [16.1 单信道信标传输](contents/ch16/16.1.md)
     * [16.2 跳频信标传输](contents/ch16/16.2.md)
 
 <!--
 
-* [13 Class B 下行时隙时序](contents/ch13/README.md)
 * [14 Class B MAC命令](contents/ch14/README.md)
 * [15 信标](contents/ch15/README.md)
-* [16 Class B 单播/多播下行信道频率](contents/ch16/README.md)
 -->
 
 ## CLASS C - 持续接收
