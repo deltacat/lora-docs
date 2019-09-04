@@ -59,15 +59,17 @@
 * [13 Class B 下行时隙时序](contents/ch13/README.md)
     * [13.1 定义](contents/ch13/13.1.md)
     * [13.2 时隙随机化](contents/ch13/13.2.md)
+<!--* [14 Class B MAC命令](contents/ch14/README.md)-->
+* 14 Class B MAC命令
+* [15 信标](contents/ch15/README.md)
+    * [15.1 信标物理层](contents/ch15/15.1.md)
+    * [15.2 信标帧内容](contents/ch15/15.2.md)
+    * [15.3 信标 GwSpecific 字段格式](contents/ch15/15.3.md)
+    * [15.4 信标精确定时](contents/ch15/15.4.md)
+    * [15.5 网络下行路由更新要求](contents/ch15/15.5.md)
 * [16 Class B 单播/多播下行信道频率](contents/ch16/README.md)
     * [16.1 单信道信标传输](contents/ch16/16.1.md)
     * [16.2 跳频信标传输](contents/ch16/16.2.md)
-
-<!--
-
-* [14 Class B MAC命令](contents/ch14/README.md)
-* [15 信标](contents/ch15/README.md)
--->
 
 ## CLASS C - 持续接收
 
