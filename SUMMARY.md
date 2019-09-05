@@ -59,8 +59,11 @@
 * [13 Class B 下行时隙时序](contents/ch13/README.md)
     * [13.1 定义](contents/ch13/13.1.md)
     * [13.2 时隙随机化](contents/ch13/13.2.md)
-<!--* [14 Class B MAC命令](contents/ch14/README.md)-->
-* 14 Class B MAC命令
+* [14 Class B MAC命令](contents/ch14/README.md)
+    * [14.1 PingSlotInfoReq](contents/ch14/14.1.md)
+    * [14.2 BeaconFreqReq](contents/ch14/14.2.md)
+    * [14.3 PingSlotChannelReq](contents/ch14/14.3.md)
+    * [14.4 BeaconTimingReq](contents/ch14/14.4.md)
 * [15 信标](contents/ch15/README.md)
     * [15.1 信标物理层](contents/ch15/15.1.md)
     * [15.2 信标帧内容](contents/ch15/15.2.md)
