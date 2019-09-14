@@ -16,56 +16,70 @@ var plugins = [
 ]
 
 var sideOverview = {
-    title: '概述', // 必要的
-    path: '/', // 可选的, 应该是一个绝对路径
+    title: 'LoRaWAN 1.1 规范', // 必要的
+    path: '/lorawan-v1.1/', // 可选的, 应该是一个绝对路径
     collapsable: false, // 可选的, 默认值是 true,
     sidebarDepth: 2, // 可选的, 默认值是 1
     children: [
-        '/ch01',
-        '/ch02',
+        '/lorawan-v1.1/ch01',
+        '/lorawan-v1.1/ch02',
     ]
 }
 
 var sideClassA = {
     title: 'CLASS A', // 必要的
-    path: '/CLASS-A', // 可选的, 应该是一个绝对路径
+    path: '/lorawan-v1.1/CLASS-A', // 可选的, 应该是一个绝对路径
     collapsable: false, // 可选的, 默认值是 true,
     sidebarDepth: 2, // 可选的, 默认值是 1
     children: [
-        '/ch03',
-        '/ch04',
-        '/ch05',
-        '/ch06',
-        '/ch07'
+        '/lorawan-v1.1/ch03',
+        '/lorawan-v1.1/ch04',
+        '/lorawan-v1.1/ch05',
+        '/lorawan-v1.1/ch06',
+        '/lorawan-v1.1/ch07'
     ]
 }
 
 var sideClassB = {
     title: 'CLASS B', // 必要的
-    path: '/CLASS-B', // 可选的, 应该是一个绝对路径
+    path: '/lorawan-v1.1/CLASS-B', // 可选的, 应该是一个绝对路径
     collapsable: false, // 可选的, 默认值是 true,
     sidebarDepth: 2, // 可选的, 默认值是 1
     children: [
-        '/ch08',
-        '/ch09',
-        '/ch10',
-        '/ch11',
-        '/ch12',
-        '/ch13',
-        '/ch14',
-        '/ch15',
-        '/ch16'
+        '/lorawan-v1.1/ch08',
+        '/lorawan-v1.1/ch09',
+        '/lorawan-v1.1/ch10',
+        '/lorawan-v1.1/ch11',
+        '/lorawan-v1.1/ch12',
+        '/lorawan-v1.1/ch13',
+        '/lorawan-v1.1/ch14',
+        '/lorawan-v1.1/ch15',
+        '/lorawan-v1.1/ch16'
     ]
 }
 
 var sideClassC = {
     title: 'CLASS C', // 必要的
-    path: '/CLASS-C', // 可选的, 应该是一个绝对路径
+    path: '/lorawan-v1.1/CLASS-C', // 可选的, 应该是一个绝对路径
     collapsable: false, // 可选的, 默认值是 true,
     sidebarDepth: 2, // 可选的, 默认值是 1
     children: [
-        '/ch17',
-        '/ch18'
+        '/lorawan-v1.1/ch17',
+        '/lorawan-v1.1/ch18'
+    ]
+}
+
+var sideSupport = {
+    title: 'SUPPORT INFORMATION', // 必要的
+    path: '/lorawan-v1.1/SUPPORT', // 可选的, 应该是一个绝对路径
+    collapsable: false, // 可选的, 默认值是 true,
+    sidebarDepth: 2, // 可选的, 默认值是 1
+    children: [
+        '/lorawan-v1.1/ch21',
+        '/lorawan-v1.1/ch22',
+        '/lorawan-v1.1/ch23',
+        '/lorawan-v1.1/ch24',
+        '/lorawan-v1.1/ch25'
     ]
 }
 
@@ -77,20 +91,6 @@ var sideAppendix = {
     children: [
         '/appendix/references',
         '/appendix/build-lora-server'
-    ]
-}
-
-var sideSupport = {
-    title: 'SUPPORT INFORMATION', // 必要的
-    path: '/SUPPORT', // 可选的, 应该是一个绝对路径
-    collapsable: false, // 可选的, 默认值是 true,
-    sidebarDepth: 2, // 可选的, 默认值是 1
-    children: [
-        '/ch21',
-        '/ch22',
-        '/ch23',
-        '/ch24',
-        '/ch25'
     ]
 }
 
@@ -107,7 +107,7 @@ var themeConfig = {
 }
 
 module.exports = {
-    title: 'LoRaWAN Spec 1.1 中文版', // 新增资料后改为“Lora中文资料汇编”
+    title: 'LoRa 中文资料汇编', // 新增资料后改为“Lora中文资料汇编”
     description: 'LoRa 中文资料汇编。包含 LoRaWAN 1.1 Spec 中文版（翻译）等。持续更新。',
     markdown,
     plugins,
