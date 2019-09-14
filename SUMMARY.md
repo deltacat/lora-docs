@@ -38,11 +38,11 @@
     * [5.12 设备时间](contents/ch05/5.12.md)
     * [5.13 强制重连](contents/ch05/5.13.md)
     * [5.14 重连参数设置](contents/ch05/5.14.md) 
-* [7 重传退避](contents/ch07/README.md)
 * [6 终端激活](contents/ch06/README.md)
     * [6.1 终端数据存储](contents/ch06/6.1.md) 
     * [6.2 空中激活 OTAA](contents/ch06/6.2.md)
     * [6.3 个性化激活 ABP](contents/ch06/6.3.md) 
+* [7 重传退避](contents/ch07/README.md)
 
 ## CLASS B - 信标
 
