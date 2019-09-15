@@ -5,12 +5,12 @@ heroText: LoRaWAN 资料汇编
 <!-- tagline: Hero 副标题 -->
 actionText: LoRaWAN v1.1 中文版 →
 actionLink: /lorawan-v1.1/
-<!-- features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。 -->
+features:
+- title: 官方文件
+  details: 以 LoRa 联盟官方资料为蓝本。尽可能保证来源的可靠。
+- title: 中文翻译
+  details: 方便国内从业者学习进行中文翻译，尽可能详实准确。
+- title: 实用资料
+  details: 搜集整理各种学习资料，方便一站直达，多方位参考。
 footer: MIT Licensed | Copyright © 2019, deltacat
 ---

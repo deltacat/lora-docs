@@ -85,12 +85,12 @@ var sideSupport = {
 
 var sideAppendix = {
     title: '附录',
-    path: '/appendix',
+    path: '/lorawan-v1.1/appendix',
     collapsable: true,
     sidebarDepth: 1,
     children: [
-        '/appendix/references',
-        '/appendix/build-lora-server'
+        '/lorawan-v1.1/appendix/references',
+        '/lorawan-v1.1/appendix/build-lora-server'
     ]
 }
 
@@ -103,11 +103,16 @@ var themeConfig = {
         sideClassC,
         sideSupport,
         sideAppendix
-    ]
+    ],
+    lastUpdated: '最近更新',
+    repo: 'deltacat/lora-docs',
+    docsDir: 'docs',
+    editLinks: true,
+    editLinkText: '帮我改善此页面'
 }
 
 module.exports = {
-    title: 'LoRa 中文资料汇编', // 新增资料后改为“Lora中文资料汇编”
+    title: 'LoRa 中文资料汇编', 
     description: 'LoRa 中文资料汇编。包含 LoRaWAN 1.1 Spec 中文版（翻译）等。持续更新。',
     markdown,
     plugins,
