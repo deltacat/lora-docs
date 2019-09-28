@@ -31,9 +31,7 @@ LoRaWAN Specification V1.1 中文版
     - [x] 开源 Lora 服务编译说明；
     - [x] 学习资料汇编
 - [x] 改为 vuepress（2019.9.13）
-- [ ] 粗校
-	- 2019.9.22, 至 ch04
-	- 2019.9.27, 至 ch05
+- [x] 正文粗校：2019.9.28 完成
 
 ## 一些术语的翻译说明：
 
@@ -41,7 +39,7 @@ LoRaWAN Specification V1.1 中文版
 - SHALL, MUST ... 等限定词，为保证准确，翻译为中文后保留原英文单词。
 - 信道、频道，本文中含义相同。均指 frequecy channel。
 - Data Rate: 翻译为数据速率、速率
-- ...
+- MAC Command 翻译为 Mac 指令或命令
 
 [//]: #(以下为注释、链接)
 

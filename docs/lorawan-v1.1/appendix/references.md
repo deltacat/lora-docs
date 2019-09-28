@@ -8,7 +8,7 @@
 - [Semtech Basic communication protocol between Lora gateway and server
 ](https://github.com/Lora-net/packet_forwarder/blob/master/PROTOCOL.TXT)
 
-## Remi 专家的 LoRa Wan 系列文章
+## Rime 专家的 LoRa Wan 系列文章
 
 博客地址：[RimeLink](https://blog.csdn.net/jiangjunjie_2005)
 

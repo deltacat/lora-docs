@@ -75,6 +75,8 @@ var sideSupport = {
     collapsable: false, // 可选的, 默认值是 true,
     sidebarDepth: 2, // 可选的, 默认值是 1
     children: [
+        '/lorawan-v1.1/ch19',
+        '/lorawan-v1.1/ch20',
         '/lorawan-v1.1/ch21',
         '/lorawan-v1.1/ch22',
         '/lorawan-v1.1/ch23',
