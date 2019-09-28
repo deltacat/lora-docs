@@ -13,12 +13,13 @@ help: Makefile
 ## serve: start a static server locally
 .PHONY: serve
 serve:
-	npm run docs:dev
+	yarn docs:dev
 
 ## build: build the book to static 
 .PHONY: build
 build:
-	npm run docs:build
+	yarn docs:build
 
 ## publish: commit and publish to gh-pages
 publish:
+	@deploy.sh
