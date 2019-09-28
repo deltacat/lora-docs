@@ -10,6 +10,7 @@ node_modules
 
 # Book build output
 _book
+docs/.vuepress/dist/
 
 # eBook build output
 *.epub
