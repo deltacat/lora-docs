@@ -6,7 +6,7 @@ heroText: LoRaWAN 资料汇编
 actionText: LoRaWAN v1.1 中文版 →
 actionLink: /lorawan-v1.1/
 features:
-- title: 官方文件
+- title: 可靠来源
   details: 以 LoRa 联盟官方资料为蓝本。尽可能保证来源的可靠。
 - title: 中文翻译
   details: 方便国内从业者学习进行中文翻译，尽可能详实准确。

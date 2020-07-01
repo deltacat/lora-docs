@@ -15,96 +15,18 @@ var plugins = [
     }]
 ]
 
-var sideOverview = {
-    title: 'LoRaWAN 1.1 规范', // 必要的
-    path: '/lorawan-v1.1/', // 可选的, 应该是一个绝对路径
-    collapsable: false, // 可选的, 默认值是 true,
-    sidebarDepth: 2, // 可选的, 默认值是 1
-    children: [
-        '/lorawan-v1.1/ch01',
-        '/lorawan-v1.1/ch02',
-    ]
-}
-
-var sideClassA = {
-    title: 'CLASS A', // 必要的
-    path: '/lorawan-v1.1/CLASS-A', // 可选的, 应该是一个绝对路径
-    collapsable: false, // 可选的, 默认值是 true,
-    sidebarDepth: 2, // 可选的, 默认值是 1
-    children: [
-        '/lorawan-v1.1/ch03',
-        '/lorawan-v1.1/ch04',
-        '/lorawan-v1.1/ch05',
-        '/lorawan-v1.1/ch06',
-        '/lorawan-v1.1/ch07'
-    ]
-}
-
-var sideClassB = {
-    title: 'CLASS B', // 必要的
-    path: '/lorawan-v1.1/CLASS-B', // 可选的, 应该是一个绝对路径
-    collapsable: false, // 可选的, 默认值是 true,
-    sidebarDepth: 2, // 可选的, 默认值是 1
-    children: [
-        '/lorawan-v1.1/ch08',
-        '/lorawan-v1.1/ch09',
-        '/lorawan-v1.1/ch10',
-        '/lorawan-v1.1/ch11',
-        '/lorawan-v1.1/ch12',
-        '/lorawan-v1.1/ch13',
-        '/lorawan-v1.1/ch14',
-        '/lorawan-v1.1/ch15',
-        '/lorawan-v1.1/ch16'
-    ]
-}
-
-var sideClassC = {
-    title: 'CLASS C', // 必要的
-    path: '/lorawan-v1.1/CLASS-C', // 可选的, 应该是一个绝对路径
-    collapsable: false, // 可选的, 默认值是 true,
-    sidebarDepth: 2, // 可选的, 默认值是 1
-    children: [
-        '/lorawan-v1.1/ch17',
-        '/lorawan-v1.1/ch18'
-    ]
-}
-
-var sideSupport = {
-    title: 'SUPPORT INFORMATION', // 必要的
-    path: '/lorawan-v1.1/SUPPORT', // 可选的, 应该是一个绝对路径
-    collapsable: false, // 可选的, 默认值是 true,
-    sidebarDepth: 2, // 可选的, 默认值是 1
-    children: [
-        '/lorawan-v1.1/ch19',
-        '/lorawan-v1.1/ch20',
-        '/lorawan-v1.1/ch21',
-        '/lorawan-v1.1/ch22',
-        '/lorawan-v1.1/ch23',
-        '/lorawan-v1.1/ch24',
-        '/lorawan-v1.1/ch25'
-    ]
-}
-
-var sideAppendix = {
-    title: '附录',
-    path: '/lorawan-v1.1/appendix',
-    collapsable: true,
-    sidebarDepth: 1,
-    children: [
-        '/lorawan-v1.1/appendix/references',
-        '/lorawan-v1.1/appendix/build-lora-server'
-    ]
-}
+var loraSidebar = require('./sidebar-lora')
+var loraRpSidebar = require('./sidebar-lora-rp')
 
 var themeConfig = {
     sidebarDepth: 3,
-    sidebar: [
-        sideOverview,
-        sideClassA,
-        sideClassB,
-        sideClassC,
-        sideSupport,
-        sideAppendix
+    sidebar: {
+        '/lorawan-v1.1/': loraSidebar,
+        '/lorawan-rp-v1.1/': loraRpSidebar
+    },
+    nav: [
+        {text: 'LoRa Spec', link: '/lorawan-v1.1/'},
+        {text: 'Region Params', link: '/lorawan-rp-v1.1/'},
     ],
     lastUpdated: '最近更新',
     repo: 'deltacat/lora-docs',
