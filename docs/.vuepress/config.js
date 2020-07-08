@@ -12,7 +12,8 @@ var plugins = [
         macros: {
             '*': '\\times',
         },
-    }]
+    }],
+    'vuepress-plugin-glossary'
 ]
 
 var loraSidebar = require('./sidebar-lora')
@@ -25,8 +26,8 @@ var themeConfig = {
         '/lorawan-rp-v1.1/': loraRpSidebar
     },
     nav: [
-        {text: 'LoRa Spec', link: '/lorawan-v1.1/'},
-        {text: 'Region Params', link: '/lorawan-rp-v1.1/'},
+        { text: 'LoRa Spec', link: '/lorawan-v1.1/' },
+        { text: 'Region Params', link: '/lorawan-rp-v1.1/' },
     ],
     lastUpdated: '最近更新',
     repo: 'deltacat/lora-docs',
@@ -36,7 +37,7 @@ var themeConfig = {
 }
 
 module.exports = {
-    title: 'LoRa 中文资料汇编', 
+    title: 'LoRa 中文资料汇编',
     description: 'LoRa 中文资料汇编。包含 LoRaWAN 1.1 Spec 中文版（翻译）等。持续更新。',
     port: 3502,
     markdown,
