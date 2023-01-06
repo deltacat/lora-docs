@@ -9,8 +9,9 @@
 node_modules
 
 # Book build output
-_book
 docs/.vuepress/dist/
+docs/.vuepress/.temp
+docs/.vuepress/.cache
 
 # eBook build output
 *.epub

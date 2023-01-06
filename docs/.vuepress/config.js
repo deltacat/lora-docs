@@ -1,31 +1,33 @@
-var markdown = {
+
+import { defaultTheme } from '@vuepress/theme-default'
+import { searchPlugin } from '@vuepress/plugin-search'
+import { mdEnhancePlugin } from 'vuepress-plugin-md-enhance'
+import loraSideBar from './sidebar-lora'
+import loraRpSideBar from './sidebar-lora-rp'
+
+const markdown = {
     lineNumbers: true,
-    extendMarkdown: md => {
-        md.use(require('markdown-it-footnote'))
-        md.use(require('markdown-it-task-lists'))
-    }
 }
 
-var plugins = [
-    ['mathjax', {
-        target: 'svg',
-        macros: {
-            '*': '\\times',
-        },
-    }],
-    'vuepress-plugin-glossary'
+const plugins = [
+    // ['mathjax', {
+    //     target: 'svg',
+    //     macros: {
+    //         '*': '\\times',
+    //     },
+    // }],
+    // 'vuepress-plugin-glossary',
+    searchPlugin({}),
+    mdEnhancePlugin({ tasklist: true, footnote: true })
 ]
 
-var loraSidebar = require('./sidebar-lora')
-var loraRpSidebar = require('./sidebar-lora-rp')
-
-var themeConfig = {
+const theme = defaultTheme({
     sidebarDepth: 3,
     sidebar: {
-        '/lorawan-v1.1/': loraSidebar,
-        '/lorawan-rp-v1.1/': loraRpSidebar
+        '/lorawan-v1.1/': loraSideBar,
+        '/lorawan-rp-v1.1/': loraRpSideBar
     },
-    nav: [
+    navbar: [
         { text: 'LoRa Spec', link: '/lorawan-v1.1/' },
         { text: 'Region Params', link: '/lorawan-rp-v1.1/' },
     ],
@@ -34,13 +36,13 @@ var themeConfig = {
     docsDir: 'docs',
     editLinks: true,
     editLinkText: '帮我改善此页面'
-}
+})
 
-module.exports = {
+export default {
     title: 'LoRa 中文资料汇编',
     description: 'LoRa 中文资料汇编。包含 LoRaWAN 1.1 Spec 中文版（翻译）等。持续更新。',
     port: 3502,
     markdown,
     plugins,
-    themeConfig
+    theme
 }

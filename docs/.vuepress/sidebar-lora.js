@@ -1,6 +1,6 @@
-var sideOverview = {
-    title: 'LoRaWAN 1.1 规范', // 必要的
-    path: '/lorawan-v1.1/', // 可选的, 应该是一个绝对路径
+const sideOverview = {
+    text: 'LoRaWAN 1.1 规范', // 必要的
+    link: '/lorawan-v1.1/', // 可选的, 应该是一个绝对路径
     collapsable: false, // 可选的, 默认值是 true,
     sidebarDepth: 2, // 可选的, 默认值是 1
     children: [
@@ -9,9 +9,9 @@ var sideOverview = {
     ]
 }
 
-var sideClassA = {
-    title: 'CLASS A', // 必要的
-    path: '/lorawan-v1.1/CLASS-A', // 可选的, 应该是一个绝对路径
+const sideClassA = {
+    text: 'CLASS A', // 必要的
+    link: '/lorawan-v1.1/CLASS-A', // 可选的, 应该是一个绝对路径
     collapsable: false, // 可选的, 默认值是 true,
     sidebarDepth: 2, // 可选的, 默认值是 1
     children: [
@@ -23,9 +23,9 @@ var sideClassA = {
     ]
 }
 
-var sideClassB = {
-    title: 'CLASS B', // 必要的
-    path: '/lorawan-v1.1/CLASS-B', // 可选的, 应该是一个绝对路径
+const sideClassB = {
+    text: 'CLASS B', // 必要的
+    link: '/lorawan-v1.1/CLASS-B', // 可选的, 应该是一个绝对路径
     collapsable: false, // 可选的, 默认值是 true,
     sidebarDepth: 2, // 可选的, 默认值是 1
     children: [
@@ -41,9 +41,9 @@ var sideClassB = {
     ]
 }
 
-var sideClassC = {
-    title: 'CLASS C', // 必要的
-    path: '/lorawan-v1.1/CLASS-C', // 可选的, 应该是一个绝对路径
+const sideClassC = {
+    text: 'CLASS C', // 必要的
+    link: '/lorawan-v1.1/CLASS-C', // 可选的, 应该是一个绝对路径
     collapsable: false, // 可选的, 默认值是 true,
     sidebarDepth: 2, // 可选的, 默认值是 1
     children: [
@@ -52,9 +52,9 @@ var sideClassC = {
     ]
 }
 
-var sideSupport = {
-    title: 'SUPPORT INFORMATION', // 必要的
-    path: '/lorawan-v1.1/SUPPORT', // 可选的, 应该是一个绝对路径
+const sideSupport = {
+    text: 'SUPPORT INFORMATION', // 必要的
+    link: '/lorawan-v1.1/SUPPORT', // 可选的, 应该是一个绝对路径
     collapsable: false, // 可选的, 默认值是 true,
     sidebarDepth: 2, // 可选的, 默认值是 1
     children: [
@@ -68,9 +68,9 @@ var sideSupport = {
     ]
 }
 
-var sideAppendix = {
-    title: '附录',
-    path: '/lorawan-v1.1/appendix',
+const sideAppendix = {
+    text: '附录',
+    link: '/lorawan-v1.1/appendix',
     collapsable: true,
     sidebarDepth: 1,
     children: [
@@ -79,7 +79,7 @@ var sideAppendix = {
     ]
 }
 
-module.exports = [
+export default [
     sideOverview,
     sideClassA,
     sideClassB,
